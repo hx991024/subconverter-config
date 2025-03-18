@@ -1,15 +1,9 @@
 mixed-port: 7890
-
 allow-lan: true
-
 bind-address: '*'
-
 mode: rule
-
 log-level: info
-
 external-controller: '127.0.0.1:9090'
-
 dns:
   enable: true
   ipv6: false
@@ -17,24 +11,9 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   default-nameserver:
-    - 223.5.5.5 # 阿里DNS
-    - 180.76.76.76 # 百度DNS
-    - 119.29.29.29 # 腾讯DNS
-    - 114.114.114.114 # 114DNS
+    - 1.1.1.1
+    - 8.8.8.8
   nameserver:
-    - 223.5.5.5 # 阿里DNS
-    - 180.76.76.76 # 百度DNS
-    - 119.29.29.29 # 腾讯DNS
-    - 114.114.114.114 # 114DNS
-    - https://dns.alidns.com/dns-query # 阿里 DoH DNS
+    - 8.8.8.8
+    - https://1.1.1.1/dns-query
     - https://doh.pub/dns-query
-  fallback:
-    - tls://8.8.4.4
-    - tls://1.1.1.1
-    - https://doh.dns.sb/dns-query
-    - https://dns.cloudflare.com/dns-query
-  fallback-filter:
-    geoip: true # 默认
-    ipcidr: # 在这个网段内的 IP 地址会被考虑为被污染的 IP
-      - 240.0.0.0/4
-      - 0.0.0.0/32
