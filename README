@@ -1,0 +1,4 @@
+```shell
+sudo
+rm -rf *
+```
