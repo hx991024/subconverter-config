@@ -1,2 +1,4 @@
+```shell
 sudo
 rm -rf *
+```
