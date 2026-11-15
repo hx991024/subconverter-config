@@ -12,15 +12,17 @@ tcp-concurrent: true
 
 dns:
   enable: true
+  respect-rules: true
   ipv6: false
   use-hosts: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
-    - "*.lan"
-    - "*.local"
-    - "*.localdomain"
-    - "*.home.arpa"
+    - "+.lan"
+    - "+.local"
+    - "+.localdomain"
+    - "+.home.arpa"
+    - "geosite:private"
     - "+.msftconnecttest.com"
     - "+.msftncsi.com"
     - "localhost.ptlogin2.qq.com"
@@ -31,14 +33,17 @@ dns:
     - 223.5.5.5
     - 119.29.29.29
   nameserver:
-    - https://doh.pub/dns-query
-    - https://dns.alidns.com/dns-query
-    - 223.5.5.5
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
   proxy-server-nameserver:
-    - https://doh.pub/dns-query
+    - https://1.1.1.1/dns-query
+    - https://8.8.8.8/dns-query
     - 223.5.5.5
   nameserver-policy:
-    "geosite:cn,private":
+    "geosite:cn":
       - https://doh.pub/dns-query
       - https://dns.alidns.com/dns-query
       - 223.5.5.5
+    "geosite:private":
+      - 223.5.5.5
+      - 119.29.29.29
