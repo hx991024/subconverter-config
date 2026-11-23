@@ -16,7 +16,6 @@ DOMAIN-KEYWORD,guanggao
 DOMAIN-KEYWORD,omgmta
 DOMAIN-KEYWORD,omgmtaw
 DOMAIN-KEYWORD,omniture
-DOMAIN-KEYWORD,openx
 DOMAIN-KEYWORD,partnerad
 DOMAIN-KEYWORD,pingfore
 DOMAIN-KEYWORD,socdm
@@ -623,7 +622,6 @@ DOMAIN-SUFFIX,emarbox.com
 DOMAIN-SUFFIX,emoticon.sns.iqiyi.com
 DOMAIN-SUFFIX,epro.sogou.com
 DOMAIN-SUFFIX,epro.sohu.com
-DOMAIN-SUFFIX,eq.10jqka.com.cn
 DOMAIN-SUFFIX,eqads.com
 DOMAIN-SUFFIX,ereg.adobe.com
 DOMAIN-SUFFIX,ers.baidu.com
@@ -1060,13 +1058,15 @@ DOMAIN-SUFFIX,onepush.query.yahoo.com
 DOMAIN-SUFFIX,onetad.com
 DOMAIN-SUFFIX,openapi-news.meizu.com
 DOMAIN-SUFFIX,openrcv.baidu.com
+DOMAIN-SUFFIX,openx.net
+DOMAIN-SUFFIX,openxenterprise.com
+DOMAIN-SUFFIX,openxmarket.asia
 DOMAIN-SUFFIX,optaim.com
 DOMAIN-SUFFIX,optimix.asia
 DOMAIN-SUFFIX,optimix.cn
 DOMAIN-SUFFIX,optimizelyapis.com
 DOMAIN-SUFFIX,overture.com
 DOMAIN-SUFFIX,owneriq.net
-DOMAIN-SUFFIX,ozone.10jqka.com.cn
 DOMAIN-SUFFIX,p-log.ykimg.com
 DOMAIN-SUFFIX,p.kugou.com
 DOMAIN-SUFFIX,p.l.qq.com
@@ -1090,7 +1090,6 @@ DOMAIN-SUFFIX,partner.toutiao.com
 DOMAIN-SUFFIX,partnerads.ysm.yahoo.com
 DOMAIN-SUFFIX,passport-log.youku.com
 DOMAIN-SUFFIX,patriot.cs.pp.cn
-DOMAIN-SUFFIX,pay.mobile.sina.cn
 DOMAIN-SUFFIX,pb.hd.sohu.com
 DOMAIN-SUFFIX,pb.sogou.com
 DOMAIN-SUFFIX,pc.uf.ksosoft.com
@@ -1217,7 +1216,6 @@ DOMAIN-SUFFIX,s1.cmfu.com
 DOMAIN-SUFFIX,sanya1.com
 DOMAIN-SUFFIX,sape.ru
 DOMAIN-SUFFIX,sax.mobile.sina.cn
-DOMAIN-SUFFIX,sax.sina.com.cn
 DOMAIN-SUFFIX,saxd.sina.com.cn
 DOMAIN-SUFFIX,sc.shayugg.com
 DOMAIN-SUFFIX,schprompt.dangdang.com
@@ -1251,7 +1249,6 @@ DOMAIN-SUFFIX,shuzilm.cn
 DOMAIN-SUFFIX,simaba.m.taobao.com
 DOMAIN-SUFFIX,simaba.taobao.com
 DOMAIN-SUFFIX,simba.6.cn
-DOMAIN-SUFFIX,similarweb.com
 DOMAIN-SUFFIX,sitemeter.com
 DOMAIN-SUFFIX,sitescout.com
 DOMAIN-SUFFIX,sitetag.us
@@ -1279,7 +1276,6 @@ DOMAIN-SUFFIX,stadig.ifeng.com
 DOMAIN-SUFFIX,stargame.com
 DOMAIN-SUFFIX,startapp.com
 DOMAIN-SUFFIX,startappexchange.com
-DOMAIN-SUFFIX,stat.10jqka.com.cn
 DOMAIN-SUFFIX,stat.360safe.com
 DOMAIN-SUFFIX,stat.funshion.com
 DOMAIN-SUFFIX,stat.it168.com
@@ -1444,7 +1440,6 @@ DOMAIN-SUFFIX,uyunad.com
 DOMAIN-SUFFIX,v.l.youku.com
 DOMAIN-SUFFIX,val.api.youku.com
 DOMAIN-SUFFIX,vamaker.com
-DOMAIN-SUFFIX,vaserviece.10jqka.com.cn
 DOMAIN-SUFFIX,vcbn65.xyz
 DOMAIN-SUFFIX,vda.17173.com
 DOMAIN-SUFFIX,videopush.baidu.cn
